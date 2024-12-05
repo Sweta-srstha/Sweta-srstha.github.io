@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; /* Smooth out the scroll when going through menu */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: #fff;
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #526eb4;
+    font-size: 25px;
+    padding-top: 0;
+}
+
+nav {
+    margin-top: 10px;
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    color: #526eb4;
+}
+
+.btn__contact {
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.btn__contact:hover {
+    background-color: #526eb4;
+    color: #fff;
+}
+
+main {
+    width: 85%;
+    margin: 30px auto;
+}
+
+/* Landing page css */
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.intro__content {
+    width: 50%;
+}
+
+.intro__content h2 {
+    font-size: 40px;
+}
+
+.intro__content h1 {
+    font-size: 60px;
+    color: #526eb4;
+}
+
+.intro__content p {
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+
+.intro__content a {
+    border: 1px solid black;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+    padding: 20px 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.intro__content a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+.intro__img {
+    align-items: center;
+    width: 50%;
+}
+
+.intro__img > img {
+    width: 95%;
+    border-radius: 50%;
+}
+
+.services {
+    width: 100%;
+    margin: 70px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service {
+    background-color: #313131;
+    margin: 0px 10px;
+    padding: 80px 25px;
+    color: #ffffff;
+}
+
+.service > h3 {
+    margin-top: 35px;
+}
+
+.service > p {
+    color: #808080;
+    margin-top: 15px;
+}
+
+.featured-projects {
+    background-color: #313131;
+    padding: 100px;
+}
+
+.featured-projects > h1 {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.project {
+    background-color: #d1e9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 0;
+}
+
+.project-2 {
+    background-color: #d8e8c5;
+}
+
+.project__content {
+    width: 70%;
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 65px;
+}
+
+.project__content h3 {
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+.project__content p {
+    font-size: 25px;
+    margin-bottom: 70px;
+    color: #565151;
+    line-height: 30px;
+}
+
+.project__content a {
+    border: 1px solid black;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    padding: 18px 85px;
+    margin-left: 50px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 70px;
+}
+
+.project__content a:hover {
+    background-color: #d1e9f9;
+    color: #000000;
+}
+
+.project__img {
+    width: 30%;
+    margin-top: 70px;
+    padding: 0;
+}
+
+.project__img > img {
+    width: 100%;
+    margin-bottom: -2%;
+}
+
+/* About page CSS */
+.about__intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.about__intro__img {
+    align-items: center;
+    width: 40%;
+}
+
+.about__intro__img > img {
+    width: 100%;
+    height: 450px;
+    border-radius: 50%;
+}
+
+.about__intro__content {
+    width: 60%;
+    padding-left: 60px;
+}
+
+.about__intro__content h2 {
+    font-size: 40px;
+}
+
+.about__intro__content h1 {
+    font-size: 60px;
+    color: #526eb4;
+}
+
+.about__intro__content p {
+    font-size: 30px;
+}
+
+.facts__about {
+    margin: 60px auto;
+}
+
+.facts__about > h3 {
+    font-size: 25px;
+}
+
+.facts__about > p {
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+.my__story {
+    background-color: #313131;
+    text-align: center;
+    padding: 100px;
+    color: #fff;
+}
+
+.my__story > h1 {
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.my__story > p {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    line-height: 50px;
+    text-align: justify;
+}
+
+.fun__pics {
+    position: relative;
+    margin: 60px;
+    text-align: center;
+}
+
+.fun__pics h1 {
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    padding-left: 140px;
+}
+
+.carousel__inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel__image {
+    min-width: 50%;
+    box-sizing: border-box;
+}
+
+.carousel__image img {
+    width: 75%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.carousel__control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.carousel__control:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Footer css */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 65px;
+}
+
+footer > h3 {
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+.mail {
+    border: 1px solid black;
+    background-color: #ccc8c8;
+    color: #080808;
+    text-decoration: none;
+    padding: 18px 40px;
+    cursor: pointer;
+}
+
+.social-links {
+    margin-top: 70px;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links-img {
+    width: 40px;
+}
+
+.designer__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    border-top: 0px solid #6d6d6d;
+    margin: 40px auto;
+}
+
+.designer__name {
+    color: #526eb4;
+}
