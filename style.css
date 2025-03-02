@@ -328,7 +328,7 @@ main {
 
 .carousel__image img {
     width: 75%;
-    height: auto;
+    height: 100%;
     display: block;
     object-fit: cover;
 }
@@ -366,8 +366,9 @@ footer {
 }
 
 footer > h3 {
-    font-size: 30px;
+    font-size: 20px;
     margin: 30px 0;
+    margin-bottom: 50px;
 }
 
 .mail {
@@ -387,7 +388,7 @@ footer > h3 {
 }
 
 .social-links-img {
-    width: 40px;
+    width: 30px;
 }
 
 .designer__info {
