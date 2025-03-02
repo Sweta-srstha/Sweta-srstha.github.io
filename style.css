@@ -309,7 +309,7 @@ main {
 .carousel {
     position: relative;
     overflow: hidden;
-    padding-left: 140px;
+    padding-left: 150px;
 }
 
 .carousel__inner {
@@ -322,12 +322,8 @@ main {
     box-sizing: border-box;
 }
 
-.final_design {
-    min-width: 40%;
-}
-
 .carousel__image img {
-    width: 75%;
+    width: 65%;
     height: 100%;
     display: block;
     object-fit: cover;
