@@ -19,6 +19,7 @@ header {
     justify-content: space-between;
     align-items: center;
     position: sticky;
+    border: 1px solid black;
     top: 0;
     z-index: 1000;
     transition: background-color 0.3s, box-shadow 0.3s;
@@ -78,7 +79,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 70px;
+    margin: 70px 0 120px 0;
 }
 
 .intro__content {
