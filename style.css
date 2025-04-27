@@ -69,7 +69,7 @@ nav ul li a:hover {
 }
 
 main {
-    width: 85%;
+    width: 80%;
     margin: 30px auto;
 }
 
@@ -78,7 +78,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .intro__content {
@@ -96,7 +96,7 @@ main {
 }
 
 .intro__content p {
-    font-size: 28px;
+    font-size: 25px;
     margin-bottom: 90px;
 }
 
@@ -106,7 +106,7 @@ main {
     color: #fff;
     text-decoration: none;
     font-size: large;
-    padding: 20px 100px;
+    padding: 20px 60px;
     margin-top: 50px;
     margin-left: 50px;
     cursor: pointer;
@@ -120,7 +120,7 @@ main {
 
 .intro__img {
     align-items: center;
-    width: 50%;
+    width: 40%;
 }
 
 .intro__img > img {
@@ -153,12 +153,12 @@ main {
 
 .featured-projects {
     background-color: #313131;
-    padding: 100px;
+    padding: 80px 155px;
 }
 
 .featured-projects > h1 {
     color: #ffffff;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .project {
@@ -166,7 +166,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 70px 0;
+    margin: 50px 0;
 }
 
 .project-2 {
@@ -176,8 +176,8 @@ main {
 .project__content {
     width: 70%;
     text-align: center;
-    margin-bottom: 100px;
-    padding: 65px;
+    margin-bottom: 80px;
+    padding: 45px;
 }
 
 .project__content h3 {
@@ -189,7 +189,7 @@ main {
 }
 
 .project__content p {
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 70px;
     color: #565151;
     line-height: 30px;
@@ -233,17 +233,17 @@ main {
 
 .about__intro__img {
     align-items: center;
-    width: 50%;
+    width: 45%;
 }
 
 .about__intro__img > img {
     width: 80%;
-    height: 500px;
+    height: 450px;
     border-radius: 50%;
 }
 
 .about__intro__content {
-    width: 50%;
+    width: 55%;
     padding-left: 60px;
 }
 
@@ -267,28 +267,28 @@ main {
 }
 
 .facts__about > h3 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .facts__about > p {
-    font-size: 20px;
+    font-size: 18px;
     margin: 30px 0;
 }
 
 .my__story {
     background-color: #313131;
     text-align: center;
-    padding: 100px;
+    padding: 130px;
     color: #fff;
 }
 
 .my__story > h1 {
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 35px;
 }
 
 .my__story > p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     margin-bottom: 30px;
     line-height: 50px;
@@ -297,7 +297,7 @@ main {
 
 .fun__pics {
     position: relative;
-    margin: 60px;
+    margin: 75px;
     text-align: center;
 }
 
@@ -358,7 +358,7 @@ main {
 footer {
     background-color: #000000;
     color: #ffffff;
-    padding: 65px;
+    padding: 80px 155px;
 }
 
 footer > h3 {
