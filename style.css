@@ -27,7 +27,7 @@ header {
 
 header h1 a {
     text-decoration: none;
-    color: #526eb4;
+    color: #0a0b0e;
     font-size: 25px;
     padding-top: 0;
 }
@@ -77,79 +77,54 @@ main {
 /* Landing page css */
 .intro {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin: 100px 0 110px 0;
-}
-
-.intro__content {
-    width: 50%;
+    text-align: center;
+    padding: 80px 20px;
+    flex-direction: column;
+    height: 80vh;
 }
 
 .intro__content h2 {
-    font-size: 35px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
 }
 
-.intro__content h1 {
-    font-size: 50px;
-    color: #526eb4;
-    margin-bottom: 40px;
+.name {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-left: 10px;
 }
 
 .intro__content p {
-    font-size: 25px;
-    margin-bottom: 90px;
+    max-width: 600px;
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    line-height: 1.6;
 }
 
-.intro__content a {
-    border: 1px solid black;
-    background-color: black;
-    color: #fff;
+.connect-btn {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #e8837d;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2rem;
     text-decoration: none;
-    font-size: large;
-    padding: 20px 60px;
-    margin-top: 50px;
-    margin-left: 50px;
-    cursor: pointer;
-    border-radius: 20px;
+    display: inline-block;
 }
 
-.intro__content a:hover {
-    background-color: rgb(255, 255, 255);
-    color: #000000;
-}
-
-.intro__img {
-    align-items: center;
-    width: 40%;
-}
-
-.intro__img > img {
-    width: 95%;
-    border-radius: 50%;
-}
-
-.services {
-    width: 100%;
-    margin: 70px 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-.service {
-    background-color: #313131;
-    margin: 0px 10px;
-    padding: 80px 25px;
-    color: #ffffff;
-}
-
-.service > h3 {
-    margin-top: 35px;
-}
-
-.service > p {
-    color: #808080;
-    margin-top: 15px;
+.connect-btn:hover {
+    background-color: #d66f69;
 }
 
 .featured-projects {
