@@ -55,7 +55,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #526eb4;
+    color: #e8837d;
 }
 
 .btn__contact {
@@ -65,13 +65,13 @@ nav ul li a:hover {
 }
 
 .btn__contact:hover {
-    background-color: #526eb4;
+    background-color: #e8837d;
     color: #fff;
 }
 
 main {
     width: 80%;
-    margin: 30px auto;
+    margin: 20px auto;
 }
 
 /* Landing page css */
@@ -129,7 +129,7 @@ main {
 
 .featured-projects {
     background-color: #313131;
-    padding: 80px 155px;
+    padding: 80px 12rem;
 }
 
 .featured-projects > h1 {
@@ -142,24 +142,28 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 0;
+    margin: 80px 0;
 }
 
 .project-2 {
     background-color: #d8e8c5;
 }
 
+.project-3 {
+    background-color: #ffffff;
+}
+
 .project__content {
     width: 70%;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     padding: 45px;
 }
 
 .project__content h3 {
     font-size: 40px;
-    margin-top: 70px;
-    margin-bottom: 50px;
+    /* margin-top: 70px; */
+    margin-bottom: 2rem;
     line-height: 60px;
     font-weight: 700;
 }
@@ -190,7 +194,7 @@ main {
 
 .project__img {
     width: 30%;
-    margin-top: 70px;
+    margin-top: 40px;
     padding: 0;
 }
 
