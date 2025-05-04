@@ -187,8 +187,18 @@ main {
     margin-bottom: 70px;
 }
 
-.project__content a:hover {
+.project__content .project1-btn:hover {
     background-color: #d1e9f9;
+    color: #000000;
+}
+
+.project__content .project2-btn:hover {
+    background-color: #d8e8c5;
+    color: #000000;
+}
+
+.project__content .project3-btn:hover {
+    background-color: #ffffff;
     color: #000000;
 }
 
@@ -394,6 +404,10 @@ hr {
     line-height: 76.5px;
 }
 
+.project__title > img {
+    margin-bottom: 50px;
+}
+
 .project__overview > p {
     font-size: 25px;
     margin-bottom: 30px;
@@ -429,6 +443,7 @@ hr {
 
 .project__about__details .info {
     margin-bottom: 35px;
+    line-height: 2rem;
 }
 
 .project__about__content {
@@ -460,6 +475,11 @@ hr {
     background-color: #d8e8c5;
 }
 
+#sheleads {
+    background-color: #da2238;
+    color: white;
+}
+
 #bhachat {
     background-color: #d1e9f9;
 }
@@ -482,12 +502,9 @@ hr {
 }
 
 .project__about__subtitle > h3 {
-    background-color: #313131;
-    color: #ffffff;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 50px;
-    font-weight: 600;
-    border-radius: 5px;
+    font-weight: bolder;
     padding: 15px 0;
     margin: 20px 400px;
 }
