@@ -297,6 +297,12 @@ footer > h1 {
     margin-bottom: 60px;
 }
 
+.sheleads__pics {
+    position: relative;
+    text-align: center;
+    background-color: black;
+}
+
 .carousel {
     position: relative;
     overflow: hidden;
@@ -403,12 +409,13 @@ This is the part of the project
 }
 
 .project__about__details {
-    width: 25%;
+    width: 30%;
+    padding-right: 60px;
 }
 
 .project__about__details .heading {
     font-weight: bolder;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .project__about__details .info {
@@ -417,7 +424,7 @@ This is the part of the project
 }
 
 .project__about__content {
-    width: 75%;
+    width: 70%;
 }
 
 .project__about__content h2 {
@@ -468,6 +475,14 @@ This is the part of the project
 .dark_design {
     background-color: black;
     color: white;
+    width: 100vw; /* Full viewport width */
+    margin-left: calc(-50vw + 50%); /* Cancel out any parent centering */
+    padding: 15px 170px;
+}
+
+.gray_design {
+    background-color: #e9e9e9;
+    color: black;
     width: 100vw; /* Full viewport width */
     margin-left: calc(-50vw + 50%); /* Cancel out any parent centering */
     padding: 15px 170px;
@@ -643,4 +658,40 @@ This is the part of the project
 
 .project_carousel__control:hover {
     background-color: rgba(144, 141, 141, 0.8);
+}
+
+.she_leads__images {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.she_leads__image_2,
+.she_leads__image_1 {
+    width: 50%;
+    border-radius: 10%;
+    padding: 10px;
+    height: 500px;
+}
+
+.storytelling__goal {
+    font-style: italic;
+    color: #dacba8;
+}
+
+.sheleads_image {
+    border: 1px black solid;
+    margin: 10px;
+}
+
+.sheleads_carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.sheleads_carousel__inner {
+    display: flex;
+    transition: transform 0.5s ease;
 }
