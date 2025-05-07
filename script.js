@@ -15,37 +15,34 @@ window.onload = typeText;
 
 document.getElementById("current-year").textContent = new Date().getFullYear();
 
+// for caraousel
 let slideIndex = 0;
 
 function moveSlide(step) {
     const slides = document.querySelectorAll(".carousel__image");
+    const visibleSlides = 3; // showing 3 images now
+    const totalSlides = slides.length;
+
     slideIndex += step;
 
     if (slideIndex < 0) {
-        slideIndex = slides.length - 1;
-    } else if (slideIndex >= slides.length - 1) {
+        slideIndex = totalSlides - visibleSlides;
+    } else if (slideIndex > totalSlides - visibleSlides) {
         slideIndex = 0;
     }
 
     document.querySelector(".carousel__inner").style.transform = `translateX(-${
-        slideIndex * 50
+        slideIndex * (100 / visibleSlides)
     }%)`;
 }
 
-// Automatically scroll every 3 seconds
-setInterval(function () {
-    moveSlide(1); // Move to the next slide
-}, 3000);
+// Auto scroll
+setInterval(() => moveSlide(1), 3000);
 
-// Button controls remain functional
+// Button controls
 document
     .querySelector(".carousel__control.prev")
-    .addEventListener("click", function () {
-        moveSlide(-1); // Move to the previous slide
-    });
-
+    .addEventListener("click", () => moveSlide(-1));
 document
     .querySelector(".carousel__control.next")
-    .addEventListener("click", function () {
-        moveSlide(1); // Move to the next slide
-    });
+    .addEventListener("click", () => moveSlide(1));

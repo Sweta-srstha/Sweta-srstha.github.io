@@ -14,7 +14,7 @@ body {
 
 header {
     background: #fff;
-    padding: 20px 70px;
+    padding: 20px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,19 +69,18 @@ nav ul li a:hover {
     color: #fff;
 }
 
+/* Landing page css */
 main {
     width: 80%;
     margin: 20px auto;
 }
 
-/* Landing page css */
 .intro {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 80px 20px;
-    flex-direction: column;
     height: 80vh;
 }
 
@@ -89,11 +88,6 @@ main {
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
-}
-
-.name {
-    font-weight: 700;
-    font-size: 2.5rem;
 }
 
 .profile-pic {
@@ -124,11 +118,12 @@ main {
 }
 
 .connect-btn:hover {
-    background-color: #d66f69;
+    background-color: #ba5751;
 }
 
+/* Featured projects */
 .featured-projects {
-    background-color: #313131;
+    background-color: #000000;
     padding: 80px 12rem;
 }
 
@@ -162,7 +157,6 @@ main {
 
 .project__content h3 {
     font-size: 40px;
-    /* margin-top: 70px; */
     margin-bottom: 2rem;
     line-height: 60px;
     font-weight: 700;
@@ -180,7 +174,7 @@ main {
     background-color: black;
     color: #fff;
     text-decoration: none;
-    padding: 18px 85px;
+    padding: 20px 85px;
     margin-left: 50px;
     cursor: pointer;
     border-radius: 20px;
@@ -204,7 +198,7 @@ main {
 
 .project__img {
     width: 30%;
-    margin-top: 40px;
+    margin-bottom: 0;
     padding: 0;
 }
 
@@ -213,28 +207,55 @@ main {
     margin-bottom: -2%;
 }
 
+/* Footer css */
+footer {
+    background-color: #313131;
+    color: white;
+    padding: 70px 150px;
+}
+
+footer > h1 {
+    color: #f97b72;
+    margin: 30px 0;
+}
+
+.mail {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.designer__info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.designer__name {
+    color: #526eb4;
+}
+
+.social-links {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links-img {
+    width: 30px;
+}
+
 /* About page CSS */
 .about__intro {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
-}
-
-.about__intro__img {
-    align-items: center;
-    width: 45%;
-}
-
-.about__intro__img > img {
-    width: 80%;
-    height: 450px;
-    border-radius: 50%;
+    margin: 50px 30px;
 }
 
 .about__intro__content {
     width: 55%;
-    padding-left: 60px;
+    text-align: center;
 }
 
 .about__intro__content h2 {
@@ -242,57 +263,37 @@ main {
     margin-bottom: 25px;
 }
 
-.about__intro__content h1 {
-    font-size: 45px;
-    color: #526eb4;
-    margin-bottom: 25px;
-}
-
-.about__intro__content p {
-    font-size: 20px;
-}
-
-.facts__about {
-    margin: 60px auto;
-}
-
-.facts__about > h3 {
-    font-size: 20px;
-}
-
-.facts__about > p {
-    font-size: 18px;
-    margin: 30px 0;
-}
-
-.my__story {
-    background-color: #313131;
-    text-align: center;
-    padding: 130px;
-    color: #fff;
-}
-
-.my__story > h1 {
-    font-size: 30px;
-    margin-bottom: 35px;
-}
-
-.my__story > p {
-    font-size: 18px;
-    font-weight: 400;
+.about__intro__content h3 {
+    font-size: 25px;
     margin-bottom: 30px;
-    line-height: 50px;
+}
+
+.my__story p {
     text-align: justify;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.about__intro__video {
+    align-items: center;
+    width: 45%;
+    text-align: center;
+}
+
+.responsive_video {
+    height: 580px;
 }
 
 .fun__pics {
     position: relative;
-    margin: 75px;
     text-align: center;
+    background-color: black;
 }
 
-.fun__pics h1 {
-    font-size: 40px;
+.project__pics {
+    position: relative;
+    text-align: center;
     margin-bottom: 60px;
 }
 
@@ -300,6 +301,7 @@ main {
     position: relative;
     overflow: hidden;
     padding-left: 150px;
+    padding-top: 80px;
 }
 
 .carousel__inner {
@@ -308,13 +310,13 @@ main {
 }
 
 .carousel__image {
-    min-width: 50%;
+    min-width: 33.33%;
     box-sizing: border-box;
 }
 
 .carousel__image img {
-    width: 65%;
-    height: 90%;
+    width: 90%;
+    height: 85%;
     display: block;
     object-fit: cover;
 }
@@ -341,64 +343,32 @@ main {
 }
 
 .carousel__control:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(144, 141, 141, 0.8);
 }
 
-/* Footer css */
-footer {
-    background-color: #000000;
-    color: #ffffff;
-    padding: 80px 155px;
-}
-
-footer > h3 {
-    font-size: 20px;
-    margin: 30px 0;
-    margin-bottom: 50px;
-}
-
-.mail {
-    border: 1px solid black;
-    background-color: #ccc8c8;
-    color: #080808;
-    text-decoration: none;
-    padding: 18px 40px;
-    cursor: pointer;
-}
-
-.social-links {
-    margin-top: 70px;
-    width: 20%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.social-links-img {
-    width: 30px;
-}
-
-.designer__info {
-    display: flex;
-    justify-content: space-between;
-}
-
-hr {
-    border-top: 0px solid #6d6d6d;
-    margin: 40px auto;
-}
-
-.designer__name {
-    color: #526eb4;
-}
+/* This is the part of the project now
+This is the part of the project
+This is the part of the project
+This is the part of the project now
+This is the part of the project
+This is the part of the projectThis is the part of the project now
+This is the part of the project
+This is the part of the projectThis is the part of the project now
+This is the part of the project
+This is the part of the projectThis is the part of the project now
+This is the part of the project
+This is the part of the project
+*/
 
 /* projects CSS */
 .project__overview {
     align-items: center;
     text-align: center;
+    padding: 0 20px;
 }
 
 .project__title > h2 {
-    font-size: 60px;
+    font-size: 45px;
     font-weight: 800;
     margin-bottom: 30px;
     line-height: 76.5px;
@@ -464,11 +434,9 @@ hr {
 }
 
 .project__about__result {
-    /* position: absolute; */
-    left: 0;
+    width: 100vw; /* Full viewport width */
+    margin-left: calc(-50vw + 50%); /* Cancel out any parent centering */
     padding: 30px 0px;
-    /* width: 100vw; */
-    margin-bottom: 30px;
 }
 
 #awashub {
@@ -497,6 +465,14 @@ hr {
     line-height: 40px;
 }
 
+.dark_design {
+    background-color: black;
+    color: white;
+    width: 100vw; /* Full viewport width */
+    margin-left: calc(-50vw + 50%); /* Cancel out any parent centering */
+    padding: 15px 170px;
+}
+
 .project__about__subtitle {
     margin: 40px 0;
 }
@@ -504,9 +480,9 @@ hr {
 .project__about__subtitle > h3 {
     font-size: 30px;
     line-height: 50px;
-    font-weight: bolder;
+    font-weight: 700;
     padding: 15px 0;
-    margin: 20px 400px;
+    text-align: left;
 }
 
 .project__about__subtitle > h2 {
@@ -619,4 +595,52 @@ hr {
     margin-bottom: 15px;
     text-align: justify;
     padding-right: 60px;
+}
+
+/* carousel for project images */
+.project_carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.project_carousel__inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.project_carousel__image {
+    min-width: 33.33%;
+    box-sizing: border-box;
+    padding-left: 60px;
+}
+
+.project_carousel__image img {
+    width: 80%;
+    display: block;
+    object-fit: cover;
+}
+
+.project_carousel__control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.project_carousel__control:hover {
+    background-color: rgba(144, 141, 141, 0.8);
 }
