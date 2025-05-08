@@ -303,6 +303,49 @@ footer > h1 {
     background-color: black;
 }
 
+.marquee {
+    position: relative;
+    overflow: hidden;
+    padding-left: 0;
+    padding-top: 50px;
+    width: 100%; /* Ensures full width container */
+}
+
+.marquee h1 {
+    color: white;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.marquee__inner {
+    display: flex;
+    width: max-content; /* Needed to allow scroll based on content width */
+    animation: scroll-left 30s linear infinite;
+}
+
+.marquee__image {
+    flex: 0 0 auto; /* Prevent shrinking */
+    width: 300px; /* Fixed width or % depending on your design */
+    box-sizing: border-box;
+}
+
+.marquee__image img {
+    width: 90%;
+    height: 85%;
+    display: block;
+    object-fit: cover;
+}
+
+/* Adjust the scroll-left animation */
+@keyframes scroll-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
 .carousel {
     position: relative;
     overflow: hidden;
@@ -658,8 +701,8 @@ footer > h1 {
 .she_leads__image_1 {
     width: 50%;
     border-radius: 10%;
-    padding: 10px;
-    height: 500px;
+    padding: 40px;
+    height: auto;
 }
 
 .storytelling__goal {
