@@ -151,7 +151,7 @@ main {
 .project__content {
     width: 70%;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 110px;
     padding: 45px;
 }
 
@@ -198,8 +198,7 @@ main {
 
 .project__img {
     width: 30%;
-    margin-bottom: 0;
-    padding: 0;
+    margin-top: 20px;
 }
 
 .project__img > img {
@@ -294,7 +293,7 @@ footer > h1 {
 .project__pics {
     position: relative;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .sheleads__pics {
@@ -307,13 +306,13 @@ footer > h1 {
     position: relative;
     overflow: hidden;
     padding-left: 0;
-    padding-top: 50px;
+    padding-top: 30px;
     width: 100%; /* Ensures full width container */
 }
 
 .marquee h1 {
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-size: 30px;
 }
 
@@ -327,6 +326,9 @@ footer > h1 {
     flex: 0 0 auto; /* Prevent shrinking */
     width: 300px; /* Fixed width or % depending on your design */
     box-sizing: border-box;
+}
+.second__image {
+    width: 600px; /* Fixed width or % depending on your design */
 }
 
 .marquee__image img {
@@ -418,8 +420,14 @@ footer > h1 {
     margin-bottom: 30px;
 }
 
-.project__main_image {
+/* .project__main_image {
     margin-bottom: 30px;
+} */
+
+.project__main_image {
+    width: 100vw; /* Full viewport width */
+    margin-left: calc(-50vw + 50%); /* Cancel out any parent centering */
+    padding: 30px 0px;
 }
 
 .project__main_image > img {
@@ -518,14 +526,14 @@ footer > h1 {
 }
 
 .project__about__subtitle {
-    margin: 40px 0;
+    margin: 30px 0;
 }
 
 .project__about__subtitle > h3 {
     font-size: 30px;
     line-height: 50px;
     font-weight: 700;
-    padding: 15px 0;
+    padding-bottom: 15px;
     text-align: left;
 }
 
