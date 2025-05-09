@@ -420,14 +420,8 @@ footer > h1 {
     margin-bottom: 30px;
 }
 
-/* .project__main_image {
-    margin-bottom: 30px;
-} */
-
 .project__main_image {
-    width: 100vw; /* Full viewport width */
-    margin-left: calc(-50vw + 50%); /* Cancel out any parent centering */
-    padding: 30px 0px;
+    margin-bottom: 30px;
 }
 
 .project__main_image > img {
