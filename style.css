@@ -163,7 +163,7 @@ main {
 }
 
 .project__content p {
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 70px;
     color: #565151;
     line-height: 30px;
@@ -174,7 +174,7 @@ main {
     background-color: black;
     color: #fff;
     text-decoration: none;
-    padding: 20px 85px;
+    padding: 20px 50px;
     margin-left: 50px;
     cursor: pointer;
     border-radius: 20px;
