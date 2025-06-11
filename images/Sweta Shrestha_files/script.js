@@ -1,14 +1,15 @@
-const text = "Hello, I'm Sweta.";
-const typingElement = document.getElementById("typing-text");
-let index = 0;
+// const text =
+//     "I’m a computer science grad turned product designer, passionate about crafting clean, intuitive experiences that feel as good as they look. If it’s not thoughtful, it’s not finished.";
+// const typingElement = document.getElementById("typing-text");
+// let index = 0;
 
-function typeText() {
-    if (index < text.length) {
-        typingElement.innerHTML += text.charAt(index);
-        index++;
-        setTimeout(typeText, 150); // Adjust speed here (lower is faster)
-    }
-}
+// function typeText() {
+//     if (index < text.length) {
+//         typingElement.innerHTML += text.charAt(index);
+//         index++;
+//         setTimeout(typeText, 70); // Adjust speed here (lower is faster)
+//     }
+// }
 
 window.onload = typeText;
 

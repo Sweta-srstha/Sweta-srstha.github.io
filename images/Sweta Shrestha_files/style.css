@@ -46,6 +46,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #4a4a4a;
+    font-weight: 400;
     font-size: 18px;
 }
 
@@ -72,61 +73,32 @@ main {
     justify-content: space-between;
     align-items: center;
     margin: 0px 150px;
-    height: 90vh;
+    height: 100vh;
 }
 
 .main-line {
     border-top: 5px solid black;
     width: 8%;
+    margin-top: 40px;
     margin-right: 20px;
-    padding-bottom: 250px;
-}
-
-.main-line-about {
-    border-top: 5px solid black;
-    width: 8%;
-    margin-right: 20px;
-    padding-bottom: 430px;
 }
 
 .intro {
     width: 46%;
 }
 
-.about_intro {
-    width: 78%;
-}
-
 .intro__content h2 {
     font-size: 40px;
     font-weight: 700;
     line-height: 80px;
-    margin-bottom: 20px;
-}
-
-.about_intro__content h2 {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .intro__content p {
     font-size: 18px;
     line-height: 25px;
-    margin-bottom: 70px;
-}
-
-.about_intro__content p {
-    font-size: 16px;
-    line-height: 25px;
+    font-weight: 400;
     margin-bottom: 20px;
-    text-align: justify;
-}
-
-.responsive_video {
-    height: 530px;
-    border-radius: 20px;
 }
 
 .connect-btn {
@@ -150,19 +122,14 @@ main {
     width: 46%;
 }
 
-.image-intro_video {
-    text-align: right;
-    width: 46%;
-}
-
 .image-intro img {
     height: 150px;
     border-radius: 50%;
-    margin-bottom: 40px;
 }
 
 .image-intro p {
     font-family: "Crimson Text", sans-serif;
+    font-weight: 400;
     font-size: 40px;
     line-height: 60px;
 }
@@ -216,66 +183,56 @@ main {
 }
 
 /* Featured projects */
-.project-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 80px 150px;
-    background-color: #000000;
-}
-
-.main-line-dark {
-    border-top: 5px solid white;
-    width: 8%;
-    margin-right: 20px;
-    margin-top: 30px;
-}
-
 .featured-projects {
-    width: 92%;
+    background-color: #000000;
+    padding: 80px 12rem;
 }
 
 .featured-projects > h1 {
     color: #ffffff;
-    font-size: 40px;
-    line-height: 72px;
-    font-weight: 700;
+    font-size: 35px;
 }
 
 .project {
+    background-color: #d1e9f9;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 80px 0;
-    color: white;
+}
+
+.project-2 {
+    background-color: #d8e8c5;
+}
+
+.project-3 {
+    background-color: #ffffff;
 }
 
 .project__content {
-    width: 50%;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 110px;
     padding: 45px;
 }
 
-.project__content h1 {
-    font-size: 48px;
+.project__content h3 {
+    font-size: 40px;
     margin-bottom: 2rem;
     line-height: 60px;
-    font-weight: 800;
-}
-
-.project__content h3 {
-    font-size: 32px;
-    margin-bottom: 2rem;
-    line-height: 40px;
     font-weight: 700;
 }
 
 .project__content p {
     font-size: 16px;
     margin-bottom: 70px;
-    color: #71717a;
-    line-height: 24px;
+    color: #565151;
+    line-height: 30px;
 }
 
 .project__content a {
-    border: 1px solid white;
+    border: 1px solid black;
+    background-color: black;
     color: #fff;
     text-decoration: none;
     padding: 20px 50px;
@@ -301,16 +258,13 @@ main {
 }
 
 .project__img {
-    width: 50%;
+    width: 30%;
     margin-top: 20px;
 }
 
-.project__img2 {
-    text-align: center;
-}
-
 .project__img > img {
-    width: 60%;
+    width: 100%;
+    margin-bottom: -2%;
 }
 
 /* Footer css */
@@ -321,7 +275,7 @@ footer {
 }
 
 footer > h1 {
-    color: white;
+    color: #f97b72;
     margin: 30px 0;
 }
 
@@ -338,7 +292,7 @@ footer > h1 {
 }
 
 .designer__name {
-    color: #e8b100;
+    color: #526eb4;
 }
 
 .social-links {
@@ -349,6 +303,46 @@ footer > h1 {
 
 .social-links-img {
     width: 30px;
+}
+
+/* About page CSS */
+.about__intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 30px;
+}
+
+.about__intro__content {
+    width: 55%;
+    text-align: center;
+}
+
+.about__intro__content h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.about__intro__content h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.my__story p {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.about__intro__video {
+    align-items: center;
+    width: 45%;
+    text-align: center;
+}
+
+.responsive_video {
+    height: 580px;
 }
 
 .fun__pics {
