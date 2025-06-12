@@ -85,7 +85,7 @@ main {
 .main-line-about {
     border-top: 5px solid black;
     width: 8%;
-    margin-right: 20px;
+    margin-right: 40px;
     padding-bottom: 430px;
 }
 
@@ -94,7 +94,8 @@ main {
 }
 
 .about_intro {
-    width: 78%;
+    width: 70%;
+    padding-left: 0;
 }
 
 .intro__content h2 {
@@ -104,7 +105,7 @@ main {
     margin-bottom: 20px;
 }
 
-.about_intro__content h2 {
+.about_intro h2 {
     font-size: 40px;
     font-weight: 700;
     line-height: 80px;
@@ -117,7 +118,7 @@ main {
     margin-bottom: 70px;
 }
 
-.about_intro__content p {
+.about_intro p {
     font-size: 16px;
     line-height: 25px;
     margin-bottom: 20px;
@@ -125,7 +126,7 @@ main {
 }
 
 .responsive_video {
-    height: 530px;
+    height: 500px;
     border-radius: 20px;
 }
 
@@ -351,6 +352,208 @@ footer > h1 {
     width: 30px;
 }
 
+.heading {
+    display: flex;
+    margin: 0px 150px;
+}
+
+.heading_line {
+    border-top: 5px solid black;
+    width: 8%;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.heading_content {
+    width: 92%;
+}
+
+.heading_content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 72px;
+    margin-bottom: 20px;
+}
+
+.experience,
+.education {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 150px;
+}
+
+.arrow {
+    width: 25%;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.arrow img {
+    height: 60px;
+}
+
+.experience__content,
+.education__content {
+    width: 75%;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-bottom: 60px;
+}
+
+.experience__content img {
+    height: 90%;
+}
+
+.education__content h2 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 100%;
+    margin-bottom: 30px;
+}
+
+.education__content details {
+    border-bottom: 1px solid #333;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.education__content summary {
+    list-style: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.education__content summary::-webkit-details-marker {
+    display: none;
+}
+
+.education__content .arrow {
+    transition: transform 0.5s ease;
+}
+
+.education__content details[open] .arrow {
+    transform: rotate(180deg);
+}
+
+.education__content .edu-content {
+    margin-top: 30px;
+}
+
+.education__content .label {
+    color: #e8b100;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.education__content .value {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.experience__content {
+    position: relative;
+    margin: 80px 0px 80px 120px;
+    background: #fff;
+    padding: 60px;
+    box-sizing: border-box;
+    /* For stacking context */
+    z-index: 0;
+}
+/* Top border */
+.experience__content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -40px;
+    width: calc(100% + 80px);
+    height: 2px;
+    background: #111;
+    z-index: 3;
+}
+/* Left border */
+.experience__content::after {
+    content: "";
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 2px;
+    height: calc(100% + 80px);
+    background: #111;
+    z-index: 3;
+}
+/* Bottom border */
+.border-bottom {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background: #111;
+    z-index: 2;
+    /* Extend beyond box */
+    left: -40px;
+    width: calc(100% + 80px);
+    /* Underlap at corners */
+}
+/* Right border */
+.border-right {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: #111;
+    z-index: 2;
+    height: calc(100% + 80px);
+}
+
+/* Content styling */
+.experience-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.experience-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 48px;
+}
+.experience-number {
+    font-size: 48px;
+    font-weight: 600;
+    min-width: 60px;
+    margin-right: 40px;
+    line-height: 150%;
+}
+.experience-content {
+    flex: 1;
+}
+.experience-title {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 0 4px 0;
+}
+.experience-company {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0 0 6px 0;
+}
+.experience-description {
+    margin: 0 0 6px 0;
+    font-size: 18px;
+}
+.experience-date {
+    font-size: 16px;
+    color: #706f6f;
+    margin: 0;
+}
+
+/* about css */
 .fun__pics {
     position: relative;
     text-align: center;
