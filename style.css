@@ -62,8 +62,7 @@ nav ul li a:hover {
 }
 
 .btn__contact:hover {
-    background-color: #e8837d;
-    color: #fff;
+    background-color: #e8b100;
 }
 
 /* Landing page css */
@@ -131,7 +130,7 @@ main {
 }
 
 .connect-btn {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     padding: 1rem 2rem;
     background-color: #e8b100;
     color: white;
@@ -143,7 +142,7 @@ main {
 }
 
 .connect-btn:hover {
-    background-color: #ba5751;
+    background-color: #836504;
 }
 
 .image-intro {
