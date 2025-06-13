@@ -553,6 +553,100 @@ footer > h1 {
     margin: 0;
 }
 
+.dark-mode {
+    background-color: #000000;
+    color: white;
+    padding-top: 50px;
+}
+
+.dark-mode .heading_line {
+    border-top: 5px solid white;
+}
+
+.beyond-canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 150px;
+}
+
+.beyond-canvas .separator {
+    width: 8%;
+}
+
+.beyond-canvas-first .arrow {
+    margin-left: 70px;
+}
+
+.card {
+    background: #fff;
+    border: 3px solid black;
+    box-shadow: 14px 14px 0 #bdb9a3;
+    display: flex;
+    max-width: 500px;
+    margin: 100px 20px;
+}
+
+.card-yellow {
+    background-color: #ffe68c;
+}
+
+.card-pink {
+    background-color: #ffc9f0;
+}
+
+.card-blue {
+    background-color: #9ddcff;
+}
+
+.card-image {
+    flex: 1 1 40%;
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+}
+
+.card-content {
+    flex: 1 1 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-content h2 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* about css */
+/* about css */
+/* about css */
+/* about css */
+/* about css */
+/* about css */
+/* about css */
+/* about css */
+/* about css */
 /* about css */
 .fun__pics {
     position: relative;
