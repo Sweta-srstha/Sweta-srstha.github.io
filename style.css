@@ -467,7 +467,7 @@ footer > h1 {
     position: relative;
     margin: 80px 0px 80px 120px;
     background: #fff;
-    padding: 60px;
+    padding: 30px 50px;
     box-sizing: border-box;
     /* For stacking context */
     z-index: 0;
@@ -527,8 +527,9 @@ footer > h1 {
 .experience-item {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 48px;
+    margin-bottom: 20px;
 }
+
 .experience-number {
     font-size: 30px;
     font-weight: 500;
@@ -739,8 +740,8 @@ footer > h1 {
 .full-width-section {
     width: 100vw;
     margin-left: calc(-1 * (200px)); /* counter the padding of .case-study */
-    padding: 50px 200px 10px 200px;
-    margin-bottom: 50px;
+    padding: 50px 200px 5px 200px;
+    margin-bottom: 30px;
 }
 
 .bhachat {
@@ -1175,6 +1176,10 @@ footer > h1 {
     .heading {
         flex-direction: column;
         margin: 0 20px;
+    }
+
+    .education-heading {
+        margin-top: 30px;
     }
 
     .heading_line {
