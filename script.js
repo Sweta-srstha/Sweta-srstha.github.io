@@ -10,6 +10,13 @@ function typeText() {
     }
 }
 
+const toggle = document.querySelector(".nav-toggle");
+const navList = document.querySelector(".nav-list");
+
+toggle.addEventListener("click", () => {
+    navList.classList.toggle("show");
+});
+
 window.onload = typeText;
 
 document.getElementById("current-year").textContent = new Date().getFullYear();
