@@ -10,9 +10,12 @@
     </head>
     <body>
         <header>
-            <h1><a href="index.html">Sweta Shrestha</a></h1>
+            <h1>
+                <a href="index.html">🌻Sweta Shrestha</a>
+            </h1>
+            <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
             <nav>
-                <ul>
+                <ul class="nav-list">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="index.html#projects">Projects</a></li>
@@ -29,463 +32,344 @@
                         >
                     </li>
                     <li>
-                        <a href="#contact" class="btn__contact">Contact</a>
+                        <a href="#contact" class="btn__contact">GET IN TOUCH</a>
                     </li>
                 </ul>
             </nav>
         </header>
 
-        <main>
-            <section class="project__overview">
-                <div class="project__title">
-                    <h2>Awashub</h2>
+        <div class="case-study">
+            <h1 class="case-study-title">Awashub</h1>
+            <p class="case-study-subtitle">
+                Awashub is a real estate app for buying, selling, and renting
+                properties. It offers advanced search filters, agent
+                connections, and a seamless user experience across devices.
+            </p>
+
+            <img
+                class="case-study-main-image"
+                src="./images/awashub/awashub-main-image.png"
+            />
+
+            <div class="case-study-info">
+                <div class="case-study-insights">
+                    <div class="insights">
+                        <p class="insight-title">Industry</p>
+                        <p class="insight-detail">PropTech | B2C</p>
+                    </div>
+
+                    <div class="insights">
+                        <p class="insight-title">Role</p>
+                        <p class="insight-detail">UI/UX Designer</p>
+                    </div>
+
+                    <div class="insights">
+                        <p class="insight-title">Team</p>
+                        <p class="insight-detail">Solo</p>
+                    </div>
+
+                    <div class="insights">
+                        <p class="insight-title">Duration</p>
+                        <p class="insight-detail">8 weeks</p>
+                    </div>
+
+                    <div class="insights">
+                        <p class="insight-title">Approach</p>
+                        <p class="insight-detail">User-centered design</p>
+                    </div>
+
+                    <div class="insights">
+                        <p class="insight-title">Tools</p>
+                        <p class="insight-detail">Figma, Figjam, Slack</p>
+                    </div>
                 </div>
-                <p>
-                    Awashub is a real estate app for buying, selling, and
-                    renting properties. It offers advanced search filters, agent
-                    connections, and a seamless user experience across devices.
+
+                <div class="case-study-overview">
+                    <div class="overview">
+                        <h2 class="overview-title">Overview</h2>
+                        <p class="overview-details">
+                            Awashub is a real estate platform designed to make
+                            property searching easy and stress-free. With a
+                            clean, responsive design and smart filters, users
+                            can quickly find, compare, and save properties. The
+                            app also makes it simple to connect with agents or
+                            property owners all in one place.
+                        </p>
+                    </div>
+
+                    <div class="overview">
+                        <h2 class="overview-title">Problem Space</h2>
+                        <p class="overview-details">
+                            During my research, I realized that many property
+                            search platforms were frustrating to use. Listings
+                            were often cluttered, filters didn’t work properly,
+                            and mobile experiences were especially poor. Users
+                            also struggled to keep track of their favorite
+                            properties or easily get in touch with agents. I
+                            wanted to solve these problems by designing an
+                            experience that feels intuitive, organized, and
+                            helpful making the property search process smoother
+                            and less stressful.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="overview">
+                <h2 class="overview-title">Problem Statement</h2>
+                <p class="overview-details">
+                    How might we make property searching easier and more
+                    organized for users?
                 </p>
-                <div class="project__main_image">
-                    <img
-                        src="images/awashub/awashub-main-image.jpeg"
-                        alt="Awashub main image"
-                    />
-                </div>
+            </div>
 
-                <div class="project__about">
-                    <div class="project__about__details">
-                        <p class="heading">Industry</p>
-                        <p class="info">PropTech | B2C</p>
-
-                        <p class="heading">Role</p>
-                        <p class="info">UI / UX Design</p>
-
-                        <p class="heading">Team</p>
-                        <p class="info">Solo Project</p>
-
-                        <p class="heading">Duration</p>
-                        <p class="info">8 weeks</p>
-
-                        <p class="heading">Approach</p>
-                        <p class="info">User-centered Design</p>
-
-                        <p class="heading">Tools</p>
-                        <p class="info">Figma, Figjam, Slack</p>
-                    </div>
-
-                    <div class="project__about__content">
-                        <h2>Challenge</h2>
-                        <p class="info">
-                            The property search process can be overwhelming due
-                            to fragmented listings, inefficient filters, and
-                            poor mobile usability. Users needed a seamless and
-                            intuitive platform to browse properties, connect
-                            with agents, and save their preferences efficiently.
-                        </p>
-
-                        <h2>Solution</h2>
-                        <p class="info">
-                            I designed Awashub with a responsive interface,
-                            advanced search filters, and an optimized user
-                            experience. The app enables users to effortlessly
-                            find, compare, and connect with property owners or
-                            agents, ensuring a smooth and stress-free real
-                            estate journey.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="project__about__result" id="awashub">
-                    <h3>Result</h3>
-                    <p>
-                        Users can easily buy, sell, and rent properties with
-                        Awashub's intuitive design, advanced filters, and
-                        responsive interface.
+            <div class="full-width-section awashub">
+                <div class="overview">
+                    <h2 class="overview-title">User Research & Key Insights</h2>
+                    <p class="overview-details">
+                        I conducted user interviews and online surveys with
+                        people actively searching for properties. The goal was
+                        to understand their challenges, needs, and behaviors
+                        while using existing real estate platforms. I also
+                        reviewed competitor apps to identify common usability
+                        gaps.
                     </p>
+                    <p class="overview-details">What I learned:</p>
+                    <ul class="overview-list">
+                        <li>
+                            Cluttered Interfaces made browsing confusing and
+                            overwhelming.
+                        </li>
+                        <li>
+                            Limited Search Filters led to irrelevant or too many
+                            property results.
+                        </li>
+                        <li>
+                            No Easy Way to Save Properties for future
+                            comparison.
+                        </li>
+                        <li>
+                            Poor Mobile Usability caused frustration when
+                            searching on smartphones.
+                        </li>
+                        <li>
+                            Lack of Direct Contact Options with agents or
+                            property owners slowed down decision-making.
+                        </li>
+                    </ul>
                 </div>
+            </div>
 
-                <div class="project__about__subtitle">
-                    <h3>Project Overview</h3>
-                    <p class="subtitle__info">
-                        Awashub is a responsive real estate app I designed
-                        during my UX Bootcamp at CareerFoundry. It simplifies
-                        buying, selling, and renting properties with advanced
-                        search filters, seamless navigation, and a user-friendly
-                        experience across devices.
-                    </p>
-                </div>
+            <div class="overview">
+                <h2 class="overview-title">Design Process</h2>
+                <p class="overview-subtitle">Proposed Features</p>
+                <p class="overview-details">
+                    After carefully analyzing user feedback and research
+                    insights, I identified focused design goals to directly
+                    address the main challenges users face when searching for
+                    properties. These goals guided the feature development for
+                    Awashub, ensuring a smooth, intuitive, and efficient
+                    experience that meets users’ real needs.
+                </p>
 
-                <div class="project__about__subtitle">
-                    <h3>Getting Started</h3>
-                    <p class="subtitle__info">
-                        The product is a concept project, with UX research and
-                        personas already defined. My focus was on UI design, and
-                        the next step was creating a user flow that ensures
-                        easy, intuitive navigation for a seamless user
-                        experience. By outlining the user flow, I ensured that
-                        each step of the journey was logically connected,
-                        enhancing usability and guiding users through the app’s
-                        core features in a seamless, efficient manner.
-                    </p>
-                </div>
+                <img
+                    class="overview-image"
+                    src="./images/awashub/awashub-design-process.png"
+                />
+            </div>
 
-                <div class="project__main_image">
+            <div class="overview">
+                <h2 class="overview-title">User Flow</h2>
+                <p class="overview-details">
+                    Here is the user flow I created to map out how users move
+                    through the Awashub app. It shows the key steps from
+                    searching for properties to connecting with agents, helping
+                    me design a smoother and more organized experience.
+                </p>
+
+                <img
+                    class="overview-image"
+                    src="./images/awashub/awashub-user-flow.png"
+                />
+            </div>
+
+            <div class="overview">
+                <h2 class="overview-title">Low Fidelity Wireframes</h2>
+                <p class="overview-details">
+                    I started with low-fidelity wireframes to establish the
+                    basic layout and functionality of the app. This approach
+                    helped me focus on user flow and core interactions, allowing
+                    for quick adjustments to enhance the user experience before
+                    moving into more detailed design work.
+                </p>
+
+                <img
+                    class="overview-image"
+                    src="./images/awashub/low-fidelity-wireframes.png"
+                />
+                <!-- Fidelity images here -->
+            </div>
+
+            <div class="overview">
+                <h2 class="overview-title">Moodboard</h2>
+                <p class="overview-details">
+                    I created a modern, minimalist mood board for the app to
+                    capture a clean and user-focused aesthetic. The goal was to
+                    design an interface that feels elegant and intuitive,
+                    allowing users to navigate smoothly without distraction.
+                    This style keeps the app user-friendly and visually
+                    uncluttered, enhancing the experience of browsing properties
+                    effortlessly.
+                </p>
+
+                <img
+                    class="overview-image"
+                    src="./images/awashub/awashub-moodboard.png"
+                />
+            </div>
+
+            <div class="overview">
+                <h2 class="overview-title">Typography and Colors</h2>
+                <p class="overview-details">Font Family: Montserrat</p>
+                <img
+                    class="overview-image"
+                    src="./images/awashub/awashub-typography.png"
+                />
+            </div>
+
+            <div class="overview">
+                <h2 class="overview-title">Icons</h2>
+                <div class="image-wrapper">
                     <img
-                        src="images/awashub/awashub-flowchat.jpeg"
-                        alt="Awashub Flow chart image"
+                        class="overview-image small-version"
+                        src="./images/awashub/awashub-icons.png"
                     />
                 </div>
+            </div>
 
-                <div class="project__about__subtitle">
-                    <h3>Low Fidelity Wireframes</h3>
-                    <p class="subtitle__info">
-                        I started with low-fidelity wireframes to establish the
-                        basic layout and functionality of the app. This approach
-                        helped me focus on user flow and core interactions,
-                        allowing for quick adjustments to enhance the user
-                        experience before moving into more detailed design work.
-                    </p>
-                </div>
+            <div class="overview">
+                <h2 class="overview-title">Design for Different Breakpoints</h2>
 
-                <div class="project__main_image">
+                <p class="overview-details">
+                    For the desktop version, I used the extra screen space to
+                    display more content without clutter. I organized sections
+                    in a clean grid layout, added more spacing for readability,
+                    and made navigation easier to access. This helped create a
+                    smooth and visually balanced experience for desktop users.
+                </p>
+                <div class="image-wrapper">
                     <img
-                        src="images/awashub/awashub-low-fidelity.png"
-                        alt="Awashub Low Fidelity Image"
+                        class="overview-image small-version"
+                        src="./images/awashub/awashub-breakpoints.png"
                     />
                 </div>
+            </div>
 
-                <div class="project__about__subtitle">
-                    <h3>Moodboard</h3>
-                    <p class="subtitle__info">
-                        I created a modern, minimalist mood board for the app to
-                        capture a clean and user-focused aesthetic. The goal was
-                        to design an interface that feels elegant and intuitive,
-                        allowing users to navigate smoothly without distraction.
-                        This style keeps the app user-friendly and visually
-                        uncluttered, enhancing the experience of browsing
-                        properties effortlessly.
-                    </p>
-                </div>
+            <div class="full-width-section awashub-darkmode">
+                <div class="overview">
+                    <h2 class="overview-title">Takeaways</h2>
+                    <div class="takeway-section">
+                        <!-- Row 1 -->
+                        <div class="takeway-row">
+                            <div class="takeway-image">
+                                <img
+                                    src="./images/awashub/awashub-mobile-design.png"
+                                    alt="Mobile design"
+                                />
+                            </div>
+                            <div class="takeway-text">
+                                <ul>
+                                    <li>
+                                        <strong
+                                            >UI Fundamentals in
+                                            Practice:</strong
+                                        ><br />
+                                        Applying principles like typography,
+                                        color theory, and spacing gave me
+                                        hands-on experience in creating visually
+                                        appealing and user-friendly interfaces.
+                                    </li>
+                                    <li>
+                                        <strong
+                                            >Problem-Solving Through
+                                            Design:</strong
+                                        ><br />
+                                        Working on the real estate app
+                                        emphasized the importance of aligning
+                                        design decisions with user needs,
+                                        translating research into practical
+                                        solutions.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
-                <div class="project__main_image">
-                    <img
-                        src="images/awashub/awashub-moodboard.png"
-                        alt="Awashub Moodboard Image"
-                    />
-                </div>
-
-                <div class="project__about__subtitle">
-                    <p class="subtitle__info">
-                        After establishing the moodboard, I moved into creating
-                        the style guide, which provided clear guidelines for the
-                        app's visual consistency. This step focused on defining
-                        the design elements to ensure a cohesive look throughout
-                        the app.
-                    </p>
-                </div>
-
-                <div class="project__about__subtitle">
-                    <h3>Typography</h3>
-                </div>
-
-                <div class="project__main_image">
-                    <img
-                        src="images/awashub/awashub-typefaces.png"
-                        alt="Awashub Typefaces Image"
-                    />
-                </div>
-
-                <div class="project__about__subtitle">
-                    <h3>Icons</h3>
-                </div>
-
-                <div class="project__main_image">
-                    <img
-                        src="images/awashub/awashub-icon.png"
-                        alt="Awashub Typefaces Image"
-                    />
-                </div>
-
-                <div class="project__about__subtitle">
-                    <h3>UI Elements</h3>
-                </div>
-
-                <div class="project__main_image">
-                    <img
-                        src="images/awashub/awashub-button.png"
-                        alt="Awashub Typefaces Image"
-                    />
-                </div>
-
-                <div class="project__about__subtitle">
-                    <h3>Color</h3>
-                </div>
-
-                <div class="project__main_image">
-                    <img
-                        src="images/awashub/awashub-colors.png"
-                        alt="Awashub Typefaces Image"
-                    />
-                </div>
-
-                <div class="project__about__subtitle">
-                    <h3>Design for different breakpoints</h3>
-                    <p class="subtitle__info">
-                        I began by designing for mobile, prioritizing a clean
-                        and intuitive layout for smaller screens. Once the
-                        mobile design was finalized, I adapted it for tablet and
-                        desktop breakpoints. For tablets, I adjusted spacing and
-                        element sizes to optimize touch interactions while
-                        maintaining clarity. For desktops, I utilized the
-                        additional screen real estate to enhance content display
-                        and navigation, ensuring consistency and usability
-                        across all devices.
-                    </p>
-                </div>
-
-                <div class="project__main_two_image">
-                    <img
-                        class="laptop-1"
-                        src="images/awashub/laptop-1.png"
-                        alt="Awashub Laptop 1 Image"
-                    />
-
-                    <img
-                        class="laptop-2"
-                        src="images/awashub/laptop-2.png"
-                        alt="Awashub Laptop 2 Image"
-                    />
-                </div>
-
-                <div class="project__about__subtitle">
-                    <h3>Final Design</h3>
-                </div>
-
-                <section class="project__pics">
-                    <div class="project_carousel">
-                        <div class="project_carousel__inner">
-                            <div class="project_carousel__image">
-                                <img
-                                    src="./images/awashub/final-design-1.png"
-                                    alt="Image 1"
-                                />
+                        <!-- Row 2 -->
+                        <div class="takeway-row reverse">
+                            <div class="takeway-text">
+                                <ul>
+                                    <li>
+                                        <strong
+                                            >Mobile-First Design
+                                            Approach:</strong
+                                        ><br />
+                                        Designing for mobile first taught me to
+                                        focus on the essentials, ensuring
+                                        clarity and functionality in smaller
+                                        spaces before scaling up for larger
+                                        screens.
+                                    </li>
+                                    <li>
+                                        <strong
+                                            >Responsive Design Mastery:</strong
+                                        ><br />
+                                        Creating designs for multiple
+                                        breakpoints helped me understand how to
+                                        adapt layouts and elements for various
+                                        devices, maintaining consistency and
+                                        usability.
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="project_carousel__image">
+                            <div class="takeway-image takeway-image-right">
                                 <img
-                                    src="./images/awashub/final-design-2.png"
-                                    alt="Image 2"
-                                />
-                            </div>
-                            <div class="project_carousel__image">
-                                <img
-                                    src="./images/awashub/final-design-3.png"
-                                    alt="Image 3"
-                                />
-                            </div>
-
-                            <div class="project_carousel__image">
-                                <img
-                                    src="./images/awashub/final-design-4.png"
-                                    alt="Image 3"
-                                />
-                            </div>
-                            <div class="project_carousel__image">
-                                <img
-                                    src="./images/awashub/final-design-5.png"
-                                    alt="Image 3"
-                                />
-                            </div>
-                            <div class="project_carousel__image">
-                                <img
-                                    src="./images/awashub/final-design-6.png"
-                                    alt="Image 3"
-                                />
-                            </div>
-                            <div class="project_carousel__image">
-                                <img
-                                    src="./images/awashub/final-design-7.png"
-                                    alt="Image 3"
-                                />
-                            </div>
-                            <div class="project_carousel__image">
-                                <img
-                                    src="./images/awashub/final-design-8.png"
-                                    alt="Image 3"
-                                />
-                            </div>
-                            <div class="project_carousel__image">
-                                <img
-                                    src="./images/awashub/final-design-9.png"
-                                    alt="Image 3"
-                                />
-                            </div>
-                            <div class="project_carousel__image">
-                                <img
-                                    src="./images/awashub/final-design-10.png"
-                                    alt="Image 3"
-                                />
-                            </div>
-                            <div class="project_carousel__image">
-                                <img
-                                    src="./images/awashub/final-design-11.png"
-                                    alt="Image 3"
-                                />
-                            </div>
-                            <div class="project_carousel__image">
-                                <img
-                                    src="./images/awashub/final-design-12.png"
-                                    alt="Image 3"
-                                />
-                            </div>
-                            <div class="project_carousel__image">
-                                <img
-                                    src="./images/awashub/final-design-13.png"
-                                    alt="Image 3"
-                                />
-                            </div>
-                            <div class="project_carousel__image">
-                                <img
-                                    src="./images/awashub/final-design-14.png"
-                                    alt="Image 3"
-                                />
-                            </div>
-                            <div class="project_carousel__image">
-                                <img
-                                    src="./images/awashub/final-design-15.png"
-                                    alt="Image 3"
-                                />
-                            </div>
-                            <div class="project_carousel__image">
-                                <img
-                                    src="./images/awashub/final-design-16.png"
-                                    alt="Image 3"
-                                />
-                            </div>
-                            <div class="project_carousel__image">
-                                <img
-                                    src="./images/awashub/final-design-17.png"
-                                    alt="Image 3"
-                                />
-                            </div>
-                            <div class="project_carousel__image">
-                                <img
-                                    src="./images/awashub/final-design-18.png"
-                                    alt="Image 3"
-                                />
-                            </div>
-                            <div class="project_carousel__image">
-                                <img
-                                    src="./images/awashub/final-design-19.png"
-                                    alt="Image 3"
-                                />
-                            </div>
-                            <div class="project_carousel__image">
-                                <img
-                                    src="./images/awashub/final-design-20.png"
-                                    alt="Image 3"
+                                    src="./images/awashub/awashub-tablet-design.png"
+                                    alt="Tablet design"
                                 />
                             </div>
                         </div>
-                        <button
-                            class="carousel__control prev"
-                            onclick="moveProjectSlide(-1)"
-                        >
-                            &#10094;
-                        </button>
-                        <button
-                            class="carousel__control next"
-                            onclick="moveProjectSlide(1)"
-                        >
-                            &#10095;
-                        </button>
-                    </div>
-                </section>
-
-                <div class="dark_design">
-                    <div class="project__about__subtitle">
-                        <h3>Takeaways</h3>
-                    </div>
-
-                    <div class="project__main_two_part">
-                        <img
-                            src="images/awashub/awashub-takeaway-1.jpeg"
-                            alt="Awashub Takeway 1 Image"
-                        />
-
-                        <div class="part-2">
-                            <h2>* Mobile-First Design Approach:</h2>
-                            <p>
-                                Designing for mobile first taught me to focus on
-                                the essentials, ensuring clarity and
-                                functionality in smaller spaces before scaling
-                                up for larger screens.
-                            </p>
-
-                            <h2>* Responsive Design Mastery:</h2>
-                            <p>
-                                Creating designs for multiple breakpoints helped
-                                me understand how to adapt layouts and elements
-                                for various devices, maintaining consistency and
-                                usability.
-                            </p>
-                            <h2>* User-Centered Iteration:</h2>
-                            <p>
-                                Continuously testing and refining designs based
-                                on user feedback helped me develop a mindset of
-                                iteration, ensuring the final product
-                                effectively meets user expectations.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="project__main_three_part">
-                        <div class="part-3">
-                            <h2>* UI Fundamentals in Practice:</h2>
-                            <p>
-                                Applying principles like typography, color
-                                theory, and spacing gave me hands-on experience
-                                in creating visually appealing and user-friendly
-                                interfaces.
-                            </p>
-
-                            <h2>* Problem-Solving Through Design:</h2>
-                            <p>
-                                Working on the real estate app emphasized the
-                                importance of aligning design decisions with
-                                user needs, translating research into practical
-                                solutions.
-                            </p>
-
-                            <h2>* Accessibility Awareness:</h2>
-                            <p>
-                                Designing with inclusivity in mind reinforced
-                                the importance of contrast, readability, and
-                                navigation, making the interface usable for a
-                                diverse range of users.
-                            </p>
-                        </div>
-
-                        <img
-                            src="images/awashub/awashub-takeaway-2.png"
-                            alt="Awashub Takeway 1 Image"
-                        />
                     </div>
                 </div>
+            </div>
 
-                <div class="project__about__subtitle">
-                    <h3>Next Steps</h3>
-                    <p class="subtitle__info">
-                        Next, I plan to refine the visual design to make it more
-                        polished and consistent. I will work on creating
-                        high-fidelity prototypes to showcase interactions and
-                        ensure the user journey feels smooth. I also want to
-                        expand the designs for more breakpoints and conduct
-                        usability testing to gather feedback and make further
-                        improvements based on real user insights.
-                    </p>
+            <div class="overview">
+                <h2 class="overview-title">Final Design</h2>
+                <div class="prototype-container">
+                    <div class="overview-prototype">
+                        <iframe
+                            style="border: 1px solid rgba(0, 0, 0, 0.1)"
+                            width="349"
+                            height="700"
+                            src="https://embed.figma.com/proto/pVK4ogmT0JTRAyl9I7axHm/AwasHub-Low-Fidelity?node-id=445-13076&p=f&scaling=scale-down&content-scaling=fixed&page-id=445%3A10896&starting-point-node-id=445%3A13076&embed-host=share&hide-ui=1"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
                 </div>
-            </section>
-        </main>
+            </div>
+
+            <div class="overview">
+                <h2 class="overview-title">Next Steps</h2>
+                <p class="overview-details">
+                    Next, I plan to refine the visual design to make it more
+                    polished and consistent. I will work on creating
+                    high-fidelity prototypes to showcase interactions and ensure
+                    the user journey feels smooth. I also want to expand the
+                    designs for more breakpoints and conduct usability testing
+                    to gather feedback and make further improvements based on
+                    real user insights.
+                </p>
+            </div>
+        </div>
 
         <footer id="contact">
             <h1>Let’s Get in Touch!</h1>

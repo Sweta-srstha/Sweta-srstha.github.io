@@ -10,9 +10,12 @@
     </head>
     <body>
         <header>
-            <h1><a href="index.html">Sweta Shrestha</a></h1>
+            <h1>
+                <a href="index.html">🌻Sweta Shrestha</a>
+            </h1>
+            <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
             <nav>
-                <ul>
+                <ul class="nav-list">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -29,86 +32,122 @@
                         >
                     </li>
                     <li>
-                        <a href="#contact" class="btn__contact">Contact</a>
+                        <a href="#contact" class="btn__contact">GET IN TOUCH</a>
                     </li>
                 </ul>
             </nav>
         </header>
 
         <main>
+            <section class="main-line"></section>
             <section class="intro">
                 <div class="intro__content">
-                    <h2>
-                        Hi, I’m Sweta
-                        <img
-                            src="./images/sweta.jpeg"
-                            alt="Sweta"
-                            class="profile-pic"
-                        />
-                    </h2>
-                    <p id="typing-text"></p>
-                    <a href="#contact" class="connect-btn">Let's Connect</a>
+                    <h2 id="typing-text"></h2>
+                    <p>
+                        I’m a computer science grad turned product designer,
+                        passionate about crafting clean, intuitive experiences
+                        that feel as good as they look. If it’s not thoughtful,
+                        it’s not finished.
+                    </p>
+                    <a href="#contact" class="connect-btn">LET'S CONNECT</a>
+                </div>
+            </section>
+
+            <section class="image-intro">
+                <img src="./images/intro_image.jpg" alt="Introduction Image" />
+                <p>I design with</p>
+
+                <div class="flipping-text">
+                    <p>Thoughtful Design.</p>
+                    <p>User Empathy.</p>
+                    <p>Collaborative Insight.</p>
                 </div>
             </section>
         </main>
 
-        <section id="projects" class="featured-projects">
-            <h1>Featured projects</h1>
-            <article class="project">
-                <div class="project__content">
-                    <h3>Bhachat</h3>
-                    <p>
-                        A simple, intuitive e-wallet app for managing money,
-                        budgets, and payments.
-                    </p>
-                    <a href="bhachat.html" class="btn project1-btn"
-                        >View Case Study</a
-                    >
-                </div>
-                <div class="project__img">
-                    <img src="./images/bhachat.png" alt="Bhachat Project" />
-                </div>
-            </article>
+        <div class="project-container">
+            <section class="main-line-dark"></section>
+            <section id="projects" class="featured-projects">
+                <h1>Featured projects</h1>
+                <article class="project">
+                    <div class="project__img">
+                        <img src="./images/bhachat.png" alt="Bhachat Project" />
+                    </div>
+                    <div class="project__content">
+                        <h1>01</h1>
+                        <h3>Bhachat</h3>
+                        <p>
+                            A simple, intuitive e-wallet app for managing money,
+                            budgets, and payments.
+                        </p>
+                        <a href="bhachat.html" class="btn project1-btn"
+                            >View Case Study</a
+                        >
+                    </div>
+                </article>
 
-            <article class="project project-3">
-                <div class="project__content">
-                    <h3>She Leads Nepal</h3>
-                    <p>
-                        Empowering newly elected women in Nepal through
-                        accessible, confidence-building learning design.
-                    </p>
-                    <a href="sheleads.html" class="btn project3-btn"
-                        >View Case Study</a
-                    >
-                </div>
-                <div class="project__img">
-                    <img
-                        src="./images/sheleads-project.jpg"
-                        alt="SHE LEADS NEPAL Project"
-                    />
-                </div>
-            </article>
+                <article class="project project-3 mobile-version">
+                    <div class="project__img project__img2">
+                        <img
+                            src="./images/sheleads-project.jpg"
+                            alt="SHE LEADS NEPAL Project"
+                        />
+                    </div>
+                    <div class="project__content">
+                        <h1>02</h1>
+                        <h3>She Leads Nepal</h3>
+                        <p>
+                            Empowering newly elected women in Nepal through
+                            accessible, confidence-building learning design.
+                        </p>
+                        <a href="sheleads.html" class="btn project3-btn"
+                            >View Case Study</a
+                        >
+                    </div>
+                </article>
 
-            <article class="project project-2">
-                <div class="project__content">
-                    <h3>Awashub</h3>
-                    <p>
-                        A platform that streamlines property searches and
-                        transactions through a user-friendly, intuitive
-                        interface.
-                    </p>
-                    <a href="awashub.html" class="btn project2-btn"
-                        >View Case Study</a
-                    >
-                </div>
-                <div class="project__img">
-                    <img
-                        src="./images/awashub-project.png"
-                        alt="Awashub Project"
-                    />
-                </div>
-            </article>
-        </section>
+                <article class="project project-3 desktop-version">
+                    <div class="project__content">
+                        <h1>02</h1>
+                        <h3>She Leads Nepal</h3>
+                        <p>
+                            Empowering newly elected women in Nepal through
+                            accessible, confidence-building learning design.
+                        </p>
+                        <a href="sheleads.html" class="btn project3-btn"
+                            >View Case Study</a
+                        >
+                    </div>
+                    <div class="project__img project__img2">
+                        <img
+                            src="./images/sheleads-project.jpg"
+                            alt="SHE LEADS NEPAL Project"
+                        />
+                    </div>
+                </article>
+
+                <article class="project project-2">
+                    <div class="project__img">
+                        <img
+                            src="./images/awashub-project.png"
+                            alt="Awashub Project"
+                        />
+                    </div>
+                    <div class="project__content">
+                        <h1>03</h1>
+                        <h3>Awashub</h3>
+                        <p>
+                            A platform that streamlines property searches and
+                            transactions through a user-friendly, intuitive
+                            interface.
+                        </p>
+                        <a href="awashub.html" class="btn project2-btn"
+                            >View Case Study</a
+                        >
+                    </div>
+                </article>
+            </section>
+        </div>
 
         <footer id="contact">
             <h1>Let’s Get in Touch!</h1>

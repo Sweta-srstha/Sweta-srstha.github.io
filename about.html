@@ -10,12 +10,14 @@
     </head>
     <body>
         <header>
-            <h1><a href="index.html">Sweta Shrestha</a></h1>
+            <h1>
+                <a href="index.html">🌻Sweta Shrestha</a>
+            </h1>
+            <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
             <nav>
-                <ul>
+                <ul class="nav-list">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-
                     <li><a href="index.html#projects">Projects</a></li>
                     <li>
                         <a
@@ -30,154 +32,280 @@
                         >
                     </li>
                     <li>
-                        <a href="#contact" class="btn__contact">Contact</a>
+                        <a href="#contact" class="btn__contact">GET IN TOUCH</a>
                     </li>
                 </ul>
             </nav>
         </header>
 
         <main>
-            <section class="about__intro">
-                <div class="about__intro__content">
-                    <h2>Namaste, I'm Sweta.</h2>
-                    <h3>Greetings from all the places I've called home.</h3>
-                    <div class="my__story">
-                        <p>
-                            A Product Designer, sunshine seeker, and storyteller
-                            at heart. Born in the hills of Nepal and now
-                            designing from the Bay Area, I bring curiosity,
-                            culture, and a splash of joy to everything I create.
-                            Whether I’m sketching wireframes or sipping masala
-                            chai while journaling design ideas, I always follow
-                            one principle: design should feel like a warm hug
-                            thoughtful, intuitive, and human.
-                        </p>
-                        <p>
-                            With a Master’s in Computer Science, blending
-                            technical skills with human-centered thinking to
-                            create digital experiences that are not only
-                            functional, but truly feel good to use. Design is
-                            where my logical mind meets my artistic heart. I
-                            love digging into what makes people tick, listening
-                            deeply, and turning insights into clean, intuitive
-                            designs that make everyday moments smoother (and
-                            maybe a bit more joyful).
-                        </p>
-                        <p>
-                            I believe in small moments of magic that thoughtful
-                            micro-interaction, that smooth user flow, that smile
-                            a user gets when something just works. That’s the
-                            kind of impact I want to create. And I’m here to
-                            keep learning, keep building, and keep creating
-                            experiences that connect.
-                        </p>
-                    </div>
-                </div>
+            <section class="main-line-about"></section>
+            <section class="about_intro">
+                <h2>Namaste, I'm Sweta.</h2>
+                <p class="intro__about">
+                    A Product Designer, sunshine seeker, and storyteller at
+                    heart. Born in the hills of Nepal and now designing from the
+                    Bay Area, I bring curiosity, culture, and a splash of joy to
+                    everything I create. Whether I’m sketching wireframes or
+                    sipping masala chai while journaling design ideas, I always
+                    follow one principle: design should feel like a warm hug
+                    thoughtful, intuitive, and human.
+                </p>
+                <p class="intro__about">
+                    With a Master’s in Computer Science , blending technical
+                    skills with human-centered thinking to create digital
+                    experiences that are not only functional, but truly feel
+                    good to use. Design is where my logical mind meets my
+                    artistic heart. I love digging into what makes people tick,
+                    listening deeply, and turning insights into clean, intuitive
+                    designs that make everyday moments smoother (and maybe a bit
+                    more joyful).
+                </p>
+                <p class="intro__about">
+                    I believe in small moments of magic that thoughtful
+                    micro-interaction, that smooth user flow, that smile a user
+                    gets when something just works. That’s the kind of impact I
+                    want to create. And I’m here to keep learning, keep
+                    building, and keep creating experiences that connect.
+                </p>
+            </section>
 
-                <div class="about__intro__video">
-                    <video
-                        class="responsive_video"
-                        autoplay
-                        muted
-                        playsinline
-                        loop
-                    >
-                        <source
-                            src="./images/profile-video.mp4"
-                            type="video/mp4"
-                        />
-                    </video>
-                </div>
+            <section class="image-intro_video">
+                <video class="responsive_video" autoplay muted playsinline loop>
+                    <source src="./images/profile-video.mp4" type="video/mp4" />
+                </video>
             </section>
         </main>
 
-        <section class="fun__pics">
-            <div class="marquee">
-                <h1>Beyond the canvas</h1>
-                <div class="marquee__inner">
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic1.jpeg" alt="Image 1" />
+        <section class="heading">
+            <div class="heading_line"></div>
+            <div class="heading_content">
+                <h2>Work Experience</h2>
+            </div>
+        </section>
+
+        <section class="experience">
+            <div class="arrow">
+                <img src="./images/arrow.png" alt="Arrow" />
+            </div>
+            <div class="experience__content">
+                <div class="border-bottom"></div>
+                <div class="border-right"></div>
+                <ul class="experience-list">
+                    <li class="experience-item">
+                        <div class="experience-number">01</div>
+                        <div class="experience-content">
+                            <div class="experience-title">
+                                UI/UX Designer at
+                                <p class="experience-company">Escape AI</p>
+                            </div>
+                            <div class="experience-description">
+                                Worked on designing seamless experiences for
+                                Lucille, mood analysis, and EscapeVerse to
+                                enhance personalized self-care.
+                            </div>
+                            <div class="experience-date">June 2025-Present</div>
+                        </div>
+                    </li>
+                    <li class="experience-item">
+                        <div class="experience-number">02</div>
+                        <div class="experience-content">
+                            <div class="experience-title">
+                                Product Designer at
+                                <p class="experience-company">
+                                    Valhalla Cybernetics
+                                </p>
+                            </div>
+                            <div class="experience-description">
+                                Worked on hospital admin dashboards and
+                                scheduling tools using user-centered design.
+                            </div>
+                            <div class="experience-date">Jan 2024-May 2025</div>
+                        </div>
+                    </li>
+                    <li class="experience-item">
+                        <div class="experience-number">03</div>
+                        <div class="experience-content">
+                            <div class="experience-title">
+                                Product Designer at
+                                <p class="experience-company">
+                                    Center for Dalit Women Nepal
+                                </p>
+                            </div>
+                            <div class="experience-description">
+                                Worked on training materials and visual content
+                                to support women’s leadership programs.
+                            </div>
+                            <div class="experience-date">Jan 2021–Feb 2023</div>
+                        </div>
+                    </li>
+                    <li class="experience-item">
+                        <div class="experience-number">04</div>
+                        <div class="experience-content">
+                            <div class="experience-title">
+                                UI/UX Designer at
+                                <p class="experience-company">
+                                    Two Monks Pvt. Ltd
+                                </p>
+                            </div>
+                            <div class="experience-description">
+                                Worked on design system using Material 3
+                                guidelines for consistent UI across products.
+                            </div>
+                            <div class="experience-date">Feb 2019–Jan 2021</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="heading">
+            <div class="heading_line"></div>
+            <div class="heading_content">
+                <h2>Education</h2>
+            </div>
+        </section>
+
+        <section class="education">
+            <div class="arrow">
+                <img src="./images/arrow.png" alt="Arrow" />
+            </div>
+            <div class="education__content">
+                <h2>MY EDUCATION</h2>
+
+                <details close>
+                    <summary>
+                        Master of Science in Computer Science
+                        <span class="arrow">⌃</span>
+                    </summary>
+                    <div class="edu-content">
+                        <div>
+                            <div class="label">University</div>
+                            <div class="value">
+                                San Francisco Bay University
+                            </div>
+                        </div>
+                        <div>
+                            <div class="label">Specialization</div>
+                            <div class="value">Human-Computer Interaction</div>
+                        </div>
                     </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic2.jpeg" alt="Image 2" />
+                </details>
+
+                <details close>
+                    <summary>
+                        Bachelor of Information Management
+                        <span class="arrow">⌃</span>
+                    </summary>
+                    <div class="edu-content">
+                        <div>
+                            <div class="label">University</div>
+                            <div class="value">Tribhuwan University</div>
+                        </div>
                     </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic3.jpeg" alt="Image 3" />
+                </details>
+            </div>
+        </section>
+
+        <div class="dark-mode">
+            <section class="heading">
+                <div class="heading_line"></div>
+                <div class="heading_content">
+                    <h2>Beyond the canvas</h2>
+                </div>
+            </section>
+
+            <div class="beyond-canvas">
+                <div class="separator"></div>
+                <div class="beyond-canvas-first">
+                    <div class="arrow">
+                        <img src="./images/arrow-white.png" alt="Arrow" />
                     </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic4.jpeg" alt="Image 4" />
+                    <div class="card">
+                        <div class="card-image">
+                            <img
+                                src="./images/beyond-canvas1.png"
+                                alt="Beyond canvas images"
+                            />
+                        </div>
+                        <div class="card-content">
+                            <h2>Love for Books</h2>
+                            <p>
+                                “I like reading when life feels fast. It helps
+                                me slow down and clear my mind. Books are a
+                                quiet place where I feel calm and at home.”
+                            </p>
+                        </div>
                     </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic5.jpg" alt="Image 5" />
+                    <div class="card card-yellow">
+                        <div class="card-image">
+                            <img
+                                src="./images/beyond-canvas2.png"
+                                alt="Beyond canvas images"
+                            />
+                        </div>
+                        <div class="card-content">
+                            <h2>Paint & Pottery</h2>
+                            <p>
+                                Since school, I’ve loved drawing and painting. I
+                                also enjoy pottery painting it’s another way I
+                                express myself. Creating with my hands helps me
+                                share feelings and relax in a quiet, creative
+                                space.
+                            </p>
+                        </div>
                     </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic6.jpg" alt="Image 1" />
-                    </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic7.jpg" alt="Image 2" />
-                    </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic8.jpg" alt="Image 3" />
-                    </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic9.jpg" alt="Image 4" />
-                    </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic10.jpg" alt="Image 5" />
-                    </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic11.jpg" alt="Image 3" />
-                    </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic12.jpg" alt="Image 4" />
-                    </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic13.jpg" alt="Image 5" />
+                </div>
+
+                <div class="beyond-canvas-second">
+                    <div class="card card-pink">
+                        <div class="card-image">
+                            <video
+                                class="responsive_video"
+                                autoplay
+                                muted
+                                playsinline
+                                loop
+                            >
+                                <source
+                                    src="./images/travel.mp4"
+                                    type="video/mp4"
+                                />
+                            </video>
+                        </div>
+                        <div class="card-content">
+                            <h2>Travel and Explore</h2>
+                            <p>
+                                I love travel because it fills me with joy and
+                                wonder. Moving from Nepal to San Francisco has
+                                shown me how big and beautiful the world is.
+                                Every trip helps me grow, learn, and see life
+                                through new eyes.
+                            </p>
+                        </div>
                     </div>
 
-                    <!-- Repeating for marquee -->
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic1.jpeg" alt="Image 1" />
-                    </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic2.jpeg" alt="Image 2" />
-                    </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic3.jpeg" alt="Image 3" />
-                    </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic4.jpeg" alt="Image 4" />
-                    </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic5.jpg" alt="Image 5" />
-                    </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic6.jpg" alt="Image 1" />
-                    </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic7.jpg" alt="Image 2" />
-                    </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic8.jpg" alt="Image 3" />
-                    </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic9.jpg" alt="Image 4" />
-                    </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic10.jpg" alt="Image 5" />
-                    </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic11.jpg" alt="Image 3" />
-                    </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic12.jpg" alt="Image 4" />
-                    </div>
-                    <div class="marquee__image">
-                        <img src="./images/fun_pic13.jpg" alt="Image 5" />
+                    <div class="card card-blue">
+                        <div class="card-image">
+                            <img
+                                src="./images/beyond-canvas4.jpeg"
+                                alt="Beyond canvas images"
+                            />
+                        </div>
+                        <div class="card-content">
+                            <h2>Food Trails</h2>
+                            <p>
+                                I love exploring food. Every dish tells a story
+                                and brings new flavors to discover. Trying
+                                different recipes connects me to cultures and
+                                memories. Food is my way of experiencing the
+                                world, one bite at a time.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
         <footer id="contact">
             <h1>Let’s Get in Touch!</h1>
