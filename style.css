@@ -81,14 +81,14 @@ main {
     border-top: 5px solid black;
     width: 8%;
     margin-right: 20px;
-    padding-bottom: 250px;
+    padding-bottom: 270px;
 }
 
 .main-line-about {
     border-top: 5px solid black;
-    width: 8%;
-    margin-right: 40px;
-    padding-bottom: 430px;
+    width: 10%;
+    margin-right: 30px;
+    padding-bottom: 450px;
 }
 
 .intro {
@@ -96,7 +96,7 @@ main {
 }
 
 .about_intro {
-    width: 70%;
+    width: 68%;
     padding-left: 0;
 }
 
@@ -166,7 +166,7 @@ main {
 
 .image-intro p {
     font-family: "Crimson Text", sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 60px;
 }
 
@@ -181,8 +181,10 @@ main {
     margin: 0;
     line-height: 1.5em;
     position: absolute;
+    font-size: 40px;
     width: 100%;
     opacity: 0;
+    font-weight: bold;
 }
 
 .flipping-text p:nth-child(1) {
@@ -222,7 +224,7 @@ main {
 .project-container {
     display: flex;
     justify-content: space-between;
-    padding: 80px 200px;
+    padding: 70px 200px 0px 200px;
     background-color: #000000;
 }
 
@@ -303,7 +305,7 @@ main {
 }
 
 .project__content .project3-btn:hover {
-    background-color: #ffffff;
+    background-color: #eeb0b7;
     color: #000000;
 }
 
@@ -324,12 +326,12 @@ main {
 footer {
     background-color: #313131;
     color: white;
-    padding: 70px 150px;
+    padding: 20px 150px;
 }
 
 footer > h1 {
     color: white;
-    margin: 30px 0;
+    margin: 10px 0;
 }
 
 .mail {
@@ -465,9 +467,9 @@ footer > h1 {
 
 .experience__content {
     position: relative;
-    margin: 80px 0px 80px 120px;
+    margin: 70px 0px 70px 120px;
     background: #fff;
-    padding: 30px 50px;
+    padding: 20px 30px;
     box-sizing: border-box;
     /* For stacking context */
     z-index: 0;
@@ -527,14 +529,14 @@ footer > h1 {
 .experience-item {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 .experience-number {
     font-size: 30px;
     font-weight: 500;
     min-width: 60px;
-    margin-right: 40px;
+    margin-right: 20px;
     line-height: 100%;
 }
 
@@ -578,6 +580,7 @@ footer > h1 {
     justify-content: center;
     align-items: center;
     margin: 0px 200px;
+    padding-bottom: 120px;
 }
 
 .beyond-canvas .separator {
@@ -594,19 +597,26 @@ footer > h1 {
     box-shadow: 14px 14px 0 #bdb9a3;
     display: flex;
     max-width: 500px;
-    margin: 100px 20px;
+    margin: 0 20px 0 20px;
+}
+
+.card-white {
+    margin-top: 50px;
 }
 
 .card-yellow {
     background-color: #ffe68c;
+    margin-top: 80px;
 }
 
 .card-pink {
     background-color: #ffc9f0;
+    margin-top: -50px;
 }
 
 .card-blue {
     background-color: #9ddcff;
+    margin-top: 80px;
 }
 
 .card-image {
@@ -1250,8 +1260,7 @@ footer > h1 {
     }
 
     .education__content summary {
-        font-size: 18px;
-        line-height: 28px;
+        line-height: 25px;
         display: flex;
         justify-content: space-between;
         align-items: center;
