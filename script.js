@@ -55,35 +55,3 @@ document
 document
     .querySelector(".project_carousel__control.next")
     .addEventListener("click", () => moveProjectSlide(1));
-
-// for caraousel
-let sheLeadsSlideIndex = 0;
-
-function moveSheLeadSlide(step) {
-    const slides = document.querySelectorAll(".carousel__image");
-    const visibleSlides = 2; // showing 3 images now
-    const totalSlides = slides.length;
-
-    sheLeadsSlideIndex += step;
-
-    if (sheLeadsSlideIndex < 0) {
-        sheLeadsSlideIndex = totalSlides - visibleSlides;
-    } else if (sheLeadsSlideIndex > totalSlides - visibleSlides) {
-        sheLeadsSlideIndex = 0;
-    }
-
-    document.querySelector(".carousel__inner").style.transform = `translateX(-${
-        slideIndex * (100 / visibleSlides)
-    }%)`;
-}
-
-// Auto scroll
-setInterval(() => moveSheLeadSlide(1), 3000);
-
-// Button controls
-document
-    .querySelector(".carousel__control.prev")
-    .addEventListener("click", () => moveSheLeadSlide(-1));
-document
-    .querySelector(".carousel__control.next")
-    .addEventListener("click", () => moveSheLeadSlide(1));
