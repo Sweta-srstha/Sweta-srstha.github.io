@@ -309,6 +309,11 @@ main {
     color: #000000;
 }
 
+.project__content .project4-btn:hover {
+    background-color: #ffe8b2;
+    color: #000000;
+}
+
 .project__img {
     width: 50%;
     margin-top: 20px;
@@ -747,11 +752,54 @@ footer > h1 {
     line-height: 35px;
 }
 
+/* Survey parts */
+.survey-stats {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.stat-block {
+    flex: 1;
+    min-width: 250px;
+}
+
+.stat-percentage {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.stat-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.stat-description {
+    font-size: 14px;
+    line-height: 24px;
+    color: #444;
+}
+
 .full-width-section {
     width: 100vw;
     margin-left: calc(-1 * (200px)); /* counter the padding of .case-study */
     padding: 50px 200px 5px 200px;
     margin-bottom: 30px;
+}
+
+.full-width-section p,
+img {
+    margin-bottom: 30px;
+}
+
+.final-design-image {
+    width: 100vw;
+    margin-left: calc(-1 * (200px));
+    height: 100%;
 }
 
 .bhachat {
@@ -760,6 +808,10 @@ footer > h1 {
 
 .awashub {
     background-color: #d8e8c5; /* light blue or whatever shade you want */
+}
+
+.career-service {
+    background-color: #ffe8b2; /* light blue or whatever shade you want */
 }
 
 .she-leads {
@@ -1182,6 +1234,24 @@ footer > h1 {
         height: auto;
     }
 
+    /* Survey stats */
+    .survey-stats {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .stat-percentage {
+        font-size: 32px;
+    }
+
+    .stat-title {
+        font-size: 15px;
+    }
+
+    .stat-description {
+        font-size: 14px;
+    }
+
     /* About page */
     .heading {
         flex-direction: column;
@@ -1441,6 +1511,11 @@ footer > h1 {
     }
 
     .full-width-section {
+        margin-left: -20px;
+        padding: 30px 20px;
+    }
+
+    .final-design-image {
         margin-left: -20px;
         padding: 30px 20px;
     }
