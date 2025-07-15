@@ -314,6 +314,11 @@ main {
     color: #000000;
 }
 
+.project__content .project5-btn:hover {
+    background-color: #e1dff6;
+    color: #000000;
+}
+
 .project__img {
     width: 50%;
     margin-top: 20px;
@@ -784,6 +789,20 @@ footer > h1 {
     color: #444;
 }
 
+/* Survey parts */
+.survey-stats {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.stat-block-1 {
+    flex: 1;
+    min-width: 150px;
+}
+
 .full-width-section {
     width: 100vw;
     margin-left: calc(-1 * (200px)); /* counter the padding of .case-study */
@@ -812,6 +831,10 @@ img {
 
 .career-service {
     background-color: #ffe8b2; /* light blue or whatever shade you want */
+}
+
+.resume-tailor {
+    background-color: #e1dff6; /* light blue or whatever shade you want */
 }
 
 .she-leads {
@@ -850,6 +873,22 @@ img {
 
 .small-version {
     width: 70%;
+}
+
+.figma-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    border: none;
+}
+
+.figma-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
 .prototype-container {
@@ -1189,6 +1228,10 @@ img {
         align-items: center;
         margin: 40px 0;
         border-bottom: 1px solid white;
+    }
+
+    .figma-container {
+        height: 35vh;
     }
 
     .desktop-version {
