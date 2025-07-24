@@ -1,3 +1,4 @@
+// 1. Typing Effect (already exists, retained)
 const text = "Hello, I'm Sweta.";
 const typingElement = document.getElementById("typing-text");
 let index = 0;
@@ -6,10 +7,18 @@ function typeText() {
     if (index < text.length) {
         typingElement.innerHTML += text.charAt(index);
         index++;
-        setTimeout(typeText, 150); // Adjust speed here (lower is faster)
+        setTimeout(typeText, 150);
     }
 }
 
+window.onload = () => {
+    typeText();
+    document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+    revealOnScroll(); // trigger scroll animation on load
+};
+
+// 2. Mobile Nav Toggle
 const toggle = document.querySelector(".nav-toggle");
 const navList = document.querySelector(".nav-list");
 
@@ -17,17 +26,11 @@ toggle.addEventListener("click", () => {
     navList.classList.toggle("show");
 });
 
-window.onload = typeText;
-
-document.getElementById("current-year").textContent = new Date().getFullYear();
-
-// for project carousel images
-// Second Carousel (The one you added)
+// 3. Project Carousel (existing)
 let projectSlideIndex = 0;
-
 function moveProjectSlide(step) {
     const projectSlides = document.querySelectorAll(".project_carousel__image");
-    const visibleProjectSlides = 3; // showing 3 images now
+    const visibleProjectSlides = 3;
     const totalProjectSlides = projectSlides.length;
 
     projectSlideIndex += step;
@@ -45,13 +48,21 @@ function moveProjectSlide(step) {
     }%)`;
 }
 
-// Auto scroll for second carousel (every 3 seconds)
 setInterval(() => moveProjectSlide(1), 3000);
 
-// Button controls for the second carousel
 document
     .querySelector(".project_carousel__control.prev")
     .addEventListener("click", () => moveProjectSlide(-1));
 document
     .querySelector(".project_carousel__control.next")
     .addEventListener("click", () => moveProjectSlide(1));
+
+// 5. Flipping text animation
+let flipIndex = 0;
+const flipItems = document.querySelectorAll(".flipping-text p");
+setInterval(() => {
+    flipItems.forEach((item, idx) => {
+        item.style.display = idx === flipIndex ? "block" : "none";
+    });
+    flipIndex = (flipIndex + 1) % flipItems.length;
+}, 2000);
