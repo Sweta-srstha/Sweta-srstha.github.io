@@ -813,7 +813,7 @@ footer > h1 {
 
 .full-width-section {
     width: 100vw;
-    margin-left: calc(-1 * (200px)); /* counter the padding of .case-study */
+    margin-left: calc(-1 * (215px));
     padding: 50px 200px 5px 200px;
     margin-bottom: 30px;
 }
@@ -825,7 +825,7 @@ img {
 
 .final-design-image {
     width: 100vw;
-    margin-left: calc(-1 * (200px));
+    margin-left: calc(-1 * (215px));
     height: 100%;
 }
 
